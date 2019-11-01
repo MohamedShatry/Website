@@ -95,3 +95,7 @@ google167b67ab4e275bb3.html
 
 #Procfile
 Procfile
+
+#Package files
+package.json
+package-lock.json
