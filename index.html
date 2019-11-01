@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="google-site-verification" content="ioTeC6757x2ygp2oa2FgCg3UzjBBaBYXiUyKTSyZTLQ" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Mohamed-Shatry</title>
+    <link rel="shortcut icon" type = "image/png" href="favicon_io/favicon-16x16.png">
+    <!-- Font Awesome Link-->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <script src="https://kit.fontawesome.com/6f4cd122e9.js"></script>
+
+    <!--Bootstrap and Google Fonts Link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=font1|font2|etc" type="text/css">
+
+    <!-- Stylesheet and icon link -->
+    <link rel="stylesheet" href="styles.css" type="text/css">
+  </head>
+  <body id = "#">
+
+  <!-- Scroll to Top Button -->
+  <a href="#"><button id = "scroll-to-top" class="to-top shadow">
+    <i class="fas fa-chevron-up fa-2x"></i>
+  </button></a>
+
+  <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light navbar-fixed-top shadow-sm rounded">
+      <a id = "logo" class="navbar-brand" href="/"><div class = "logo-name">Mohamed Shatry </div></a>
+      <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <a class="nav-item nav-link" href="https://github.com/MohamedShatry" target="_blank">Projects <i class="fas fa-code"></i></a>
+          <a class="nav-item nav-link tech-li" href="#technology">Technology <i class="fas fa-sitemap"></i></a>
+          <a class="nav-item nav-link" href="#contact">Contact <i class="fas fa-at"></i></a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- About Page -->
+    <div class="about contain container-fluid">
+      <div class = "about-contain container">
+        <div class="row">
+          <div class = "col">
+            <!-- Jumbotron -->
+            <div class = "landing-layout jumbotron shadow-lg">
+              <div class = "text-box">
+                <div class="alert alert-success" role="alert" hidden>
+                  This is a success alert—check it out!
+                </div>
+                <h1> Hi there! &#128075;</h1>
+                <p> Welcome to my site &#127760; </p>
+                <p>I'm Mohamed Shatry, a Kenyan ( &#127472;&#127466;) Sophomore <a href="https://yale.edu" target="_blank">@Yale</a> studying Computer Science and Statistics</p>
+                <p>I'm super interested in technology, and believe that it holds the power to transform people's lives - especially in sub-Saharan Africa &#127757;</p>
+                <p>Scroll through my site to see what I've been upto. Or just <span id = "modal-trigger" data-toggle="modal" data-target="#exampleModalCenter"><a href = "#">request for my resume</a></span> &#128221;</p>
+              </div>
+                <!-- Modal -->
+              <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLongTitle">Request Mohamed's resume</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <!-- Resume Request Form -->
+                      <form class="needs-validation" novalidate method="POST" action="/resume">
+                        <div class="form-row">
+                          <div class="col-md-6 mb-3">
+                            <label for="validationCustom01">Name</label>
+                            <input name = "name" type="text" class="form-control" id="validationCustom01" placeholder="Name" required>
+                          </div>
+                          <div class="col-md-6 mb-3">
+                            <label for="inputEmail4">Email Address</label>
+                            <div class="input-group">
+                              <div class="input-group-prepend">
+                                <span class="input-group-text" id="inputGroupPrepend">@</span>
+                              </div>
+                              <input name = "email" type="email" class="form-control" id="inputEmail4" placeholder="Email" aria-describedby="inputGroupPrepend" required>
+                              <div class="invalid-feedback">
+                                Please input a valid email
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="submit" class="btn btn-outline-primary">Request Resume</button>
+                        </div>
+                      </form>
+                      <!-- End of Resume Request Form -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+               <!-- End of Modal -->
+
+            </div>
+            <!-- End of Jumbotron -->
+          </div>
+        </div>
+      </div>
+      <!-- Icon bar -->
+      <div class="icons col align-self-center">
+        <a href="https://github.com/MohamedShatry" target="_blank"><i class="social-icon fab fa-github fa-2x" style="color: grey"></i></a>
+        <a href="mailto:mhmshatry@gmail.com"><i class="social-icon fas fa-envelope fa-2x" style="color: grey"></i></a>
+        <a href="https://www.linkedin.com/in/mohamed-shatry-072aa2151" target="_blank"><i class="social-icon fab fa-linkedin-in fa-2x" style="color: grey"></i></a>
+      </div>
+      <div class= "arrow-down"><a href="#technology"><i class="fas fa-chevron-down fa-2x" style="color:black"></i></a></div>
+    </div>
+
+    <!-- Technology Page -->
+
+    <div id = "technology" class = "technology container-fluid">
+      <!-- Card Deck-->
+      <div class="card-deck">
+        <div id = "card" class="card" min-width = "200px">
+          <div class="card-body">
+            <i class="tech-icons fab fa-bootstrap"></i>
+            <p class="card-title">Client side</p>
+            <p class="card-text"> A lot of the UI heavy lifting of this site was carried out by <a id = "link" href = "https://getbootstrap.com/docs/4.3/getting-started/introduction/" target="_blank">Bootstrap</a></p>
+            <p class="card-text">Bootstrap tremendously cut down the development time of this site, plus provides an array of customizable, pre-styled UI components</p>
+            <p class="card-text"><a id = "link" href = "https://getbootstrap.com/docs/4.3/getting-started/introduction/" target="_blank">View Documentation</a></p>
+          </div>
+        </div>
+        <div id = "card" class="card" min-width = "200px">
+          <div class="card-body">
+            <i class="tech-icons fab fa-node"></i>
+            <p class="card-title">Server</p>
+            <p class="card-text">The backend for this website was built with <a id = "link" href = "https://nodejs.org" target="_blank"> NodeJS </a> using <a id = "link" href = "https://expressjs.com/en/starter/installing.html" target="_blank"> express </a></p>
+            <p class="card-text"><a id = "link" href = "https://nodejs.org/en/" target="_blank">View Documentation</a></p>
+          </div>
+        </div>
+        <div id = "card" class="card" min-width = "200px">
+          <div class="card-body">
+            <i class="tech-icons fab fa-npm"></i>
+            <p class="card-title">Server Packages</p>
+            <p class="card-text">Several packages were used to create this website</p>
+            <p class="card-text">They include: <a id = "link" href = "https://expressjs.com/en/starter/installing.html" target="_blank"> express </a>(web application framework), <a id = "link" href = "https://www.npmjs.com/package/body-parser" target="_blank">body-parser </a>(to pass request bodies) and <a id = "link" href = "https://nodemailer.com/about/" target="_blank">nodemailer </a>(to automate emails)</p>
+            <p class="card-text"><a id = "link" href = "https://www.npmjs.com/" target="_blank">View Documentation</a></p>
+          </div>
+        </div>
+      </div>
+      <div class= "arrow-down"><a href="#contact"><i class="fas fa-chevron-down fa-2x" style="color:black"></i></a></div>
+    </div>
+
+
+    <!-- Contact Form and Footer -->
+
+    <!-- Contact page -->
+    <div id="contact" class ="contact">
+      <div class="contact-jumbotron jumbotron">
+        <p class = "contact-title"> Have anything to tell me? Or want to just say hi?  Please reach out below </p>
+        <form class="needs-validation" novalidate method="POST" action="/contact">
+          <div class="form-row">
+            <div class="col mb-3">
+              <label for="validationCustom01">First name</label>
+              <input name = "firstName" type="text" class="form-control" id="validationCustom01" placeholder="First name" required>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+            </div>
+            <div class="col mb-3">
+              <label for="validationCustom02">Last name</label>
+              <input name = "lastName" type="text" class="form-control" id="validationCustom02" placeholder="Last name" required>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+            </div>
+          </div>
+          <div class="form-row ">
+            <div class="col mb-3">
+              <label for="inputEmail4">Email Address</label>
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="inputGroupPrepend">@</span>
+                </div>
+                <input name = "email" type="email" class="form-control" id="inputEmail4" placeholder="Email" aria-describedby="inputGroupPrepend" required>
+                <div class="invalid-feedback">
+                  Please input a valid email
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="form-row">
+            <label for="exampleFormControlTextarea1">Subject</label>
+            <textarea name = "subject" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div></br>
+          <button class="btn btn-primary" type="submit">Send <i class="far fa-paper-plane"></i></button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer container-fluid" id = "footer">
+      <div class="row nav-foot">
+        <div class = "col">
+          This site was built with &#10084;&#65039; by Mohamed Shatry
+        </div>
+        <nav class="nav col-md-auto">
+          <a id = "nav-link" class="nav-link" href="#">Home</a>
+          <a id = "nav-link" class="nav-link" href="https://github.com/MohamedShatry" target="_blank">Github</a>
+          <a id = "nav-link" class="nav-link" href="#technology">Technology</a>
+        </nav>
+      </div>
+    </footer>
+
+    <!-- JQuery and Bootstrap Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- Scripts for Web Functionality -->
+    <script>
+
+      //Script for scroll to top button
+      $(document).ready(function(){
+        var offset = 200;
+        var duration = 500;
+
+        $(".to-top").hide();
+        $(".alert-success").hide();
+        $(".landing-layout").hide();
+        $(".landing-layout").slideDown(1000);
+
+        $(window).scroll(function(){
+          if($(this).scrollTop() > offset){
+            $(".to-top").fadeIn(duration);
+          }else{
+            $(".to-top").fadeOut(duration);
+          }
+        });
+      });
+
+      //Script for validating email input on resume and contact forms
+      (function() {
+        'use strict';
+        window.addEventListener('load', function() {
+          // Fetch all the forms we want to apply custom Bootstrap validation styles to
+          var forms = document.getElementsByClassName('needs-validation');
+          // Loop over them and prevent submission
+          var validation = Array.prototype.filter.call(forms, function(form) {
+            form.addEventListener('submit', function(event) {
+              if (form.checkValidity() === false) {
+                event.preventDefault();
+                event.stopPropagation();
+              }
+                form.classList.add('was-validated');
+            }, false);
+          });
+        }, false);
+      })();
+    </script>
+
+  </body>
+</html>
