@@ -28,6 +28,8 @@ oauth2Client.setCredentials({
 
 const accessToken = oauth2Client.getAccessToken()
 
+//Uncomment code chunk below to force redirect to secure connection , i.e, force http request to https
+//If running code on localhost, leave code chunk commented out
 /*
 app.enable('trust proxy');
 app.use (function (req, res, next) {
